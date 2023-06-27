@@ -1,0 +1,19 @@
+section{
+    width: 100%;
+    max-height: 623px;
+    height: 100%;
+    background-color: #00ff11;
+}
+.st{
+    color: rgb(255, 255, 255);
+    height: 125vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    color: white;
+}
+.last{
+    background-color: #5d3737;
+}

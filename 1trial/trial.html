@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trial.css">
+    <script src="trial.js"></script>
+</head>
+<body>
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <p>See more <a href="">cat photos</a> in our gallery.</p>
+    <img src="cat1.jpg" alt="cat1">
+    <h2>Cat Lists</h2>
+    <h4>Things cat love:</h4>
+    <div class="list">
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointer</li>
+            <li>lasagna</li>
+        </ul><br>
+    </div>
+    <div class="img">
+        <img src="lasagna.jpg" alt="lasagna">
+        <p>Cats love lasagna.</p>
+    </div>
+    <h4>Top 3 things cats hate:</h4>
+    <div class="list">
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+    </div>
+    <div class="img">
+        <img src="cats.jpg" alt="cats">
+        <p>Cats <b>hate</b> other cats.</p>
+    </div>
+    <h1>Cat Form</h1>
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <input type="radio" name="door">Indoor
+        <input type="radio" name="door">Outdoor
+    </fieldset>
+
+    <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input type="checkbox" name="personality">Loving
+            <input type="checkbox" name="personality">Lazy
+            <input type="checkbox" name="personality">Energetic <br>
+    </fieldset>
+    <input type="text" name="url" placeholder="cat photo URL">
+    <button onclick="hello()">Submit</button>
+    <p>No Copyright - <a href="">freeCodeCamp.org</a></p>
+</body>
+</html>
